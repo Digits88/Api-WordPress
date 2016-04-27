@@ -28,7 +28,7 @@
 <?php the_permalink(); ?>
 
 <!-- CORREÇÃO DO LINK PARA HOME -->
-<?php echo get_settings('home'); ?>
+<?php echo get_option('home'); ?>
 
 <!-- MENU -->
 
