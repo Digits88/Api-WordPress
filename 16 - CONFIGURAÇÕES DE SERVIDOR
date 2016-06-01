@@ -1,0 +1,5 @@
+<!-- PERMISSÕES DE PASTA SERVIDOR LINUX E SERVIDOR APACHE -->
+
+$cd path/to/wordpress/directory
+$sudo chown www-data:www-data -R uploads/
+$sudo chmod 755 -R uploads/
